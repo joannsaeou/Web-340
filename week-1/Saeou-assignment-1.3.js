@@ -9,7 +9,7 @@
 
 //start program
 
-//returns a header with my firstname lastname and assignment
+//returns a header with my file
 var header = require('../Saeou-header');
 
 //outputting the header with my firstname, lastname, and assignment
