@@ -14,7 +14,7 @@ var header = require('../../Saeou-header');
 
 //outputting the header with my firstname, lastname, and assignment
 
-console.log(header.display("Joann", "Saeou", "Assignment-1.3"));
+console.log(header.display("Joann", "Saeou", "Assignment-3.2"));
 
 // uses the express nodejs module. 
 var express = require("express");

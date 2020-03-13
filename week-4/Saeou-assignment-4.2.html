@@ -1,0 +1,68 @@
+<!--
+
+============================================
+; Title:  Saeou-assignment-4.2.js
+; Author: Joann Saeou
+; Date:   10 March 2020
+; Description: HTTP GET and POST Operations  week 4
+;===========================================
+
+  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Assignment name</title>
+
+    <!-- jQuery reference -->
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/5DACB2B0-5003-6543-8B39-D8EE6E4FC44C/main.js" charset="UTF-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <h4>HTTP Delete Request </h4>
+
+    <button id="delete1"> Delete Security User </button>
+
+
+    <script>
+        //ajax delete button form 
+        $("#delete1").click(function() {
+            $.ajax({
+                url: "http://httpbin.org/delete",
+                dataType: "json",
+                type: "DELETE",
+                data: {
+                    username: "admin",
+                    password: "secret"
+                },
+                success: function(data, status) {
+                    console.log(
+                        "Username: " +
+                        data.form.username +
+                        "\nPassword: " +
+                        data.form.password +
+                        "\nStatus: " +
+                        status
+                    );
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        //returns a header with my file
+        var header = require('../Saeou-header.js');
+
+        //outputting the header with my firstname, lastname, and assignment
+
+        console.log(header.display("Joann", "Saeou", "Assignment-4.2"));
+    </script>
+</body>
+
+</html>
