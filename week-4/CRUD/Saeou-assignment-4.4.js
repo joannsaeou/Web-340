@@ -36,7 +36,7 @@ app.delete("/", function(request, response) {
     response.send("API invoked as an HTTP DELETE Request. ");
 });
 
-
+// create server application to listen on port 8080
 http.createServer(app).listen(8080, function() {
     console.log("Application started on port 8080!");
 });

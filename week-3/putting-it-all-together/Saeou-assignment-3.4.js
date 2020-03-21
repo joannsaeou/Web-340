@@ -79,11 +79,11 @@ app.get("/contact", function(request, response) {
 
 });
 
-app.get("/products", function(request, response) {
+app.get("/product", function(request, response) {
 
-    response.render("products", {
+    response.render("product", {
 
-        message: "products page"
+        message: "product page"
 
     });
 

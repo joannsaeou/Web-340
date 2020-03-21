@@ -1,12 +1,10 @@
 {
-    "name": "advanced-routing",
+    "name": "if-else-render",
     "author": "Joann Saeou",
     "private": true,
     "version": "0.0.1",
     "dependencies": {
         "ejs": "^3.0.1",
-        "ejs-lint": "^1.0.1",
-        "express": "^2.5.7",
-        "morgan": "^1.9.1"
+        "express": "^4.17.1"
     }
 }
