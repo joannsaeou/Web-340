@@ -24,10 +24,10 @@ var assert = require("assert");
 //a suite to describe string#split
 describe("String#Split", function() {
 
-    //mocha level to run array of fruits 
+    //mocha level to run array of fruits
     it("should return an array of fruits", function() {
 
-        assert(Array.isArray('Apple,Orange,Mango'.split(','))); // assert to run array 
+        assert(Array.isArray('Apple,Orange,Mango'.split(','))); // assert to run array
 
     });
 
