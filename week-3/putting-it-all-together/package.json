@@ -6,7 +6,7 @@
     "dependencies": {
         "ejs": "^3.0.1",
         "ejs-lint": "^1.0.1",
-        "express": "^2.5.7",
+        "express": "^4.17.3",
         "morgan": "^1.9.1"
     }
 }
